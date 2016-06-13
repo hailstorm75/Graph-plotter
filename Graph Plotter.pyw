@@ -35,8 +35,7 @@ class App:
 			csvData = csv.reader(csvfile, delimiter=' ', quotechar='|')
 			
 			# Reading each row in csvData
-			for rows in csvData:
-				
+			for rows in csvData:			
 				# Extracting data from rows
 				for data in rows:
 					row = []
